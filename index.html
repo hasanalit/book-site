@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header-container">
+            <div class="header-img-section">
+                <img src="./images/hero-img.png" alt="logojon" width="54" height="44">
+                <p class="logo-desc">BookShelter</p>
+            </div>
+            <div class="header-search-section">
+                <div class="search-icon">
+                    <img src="./images/search.png" alt="searc" width="19" height="19">
+                </div>
+                <input class="header-search" id="input" type="text" placeholder="Search">
+            </div>
+            <button id="logoutBtn" class="logout-btn" type="submit">Logout</button>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+        <div class="hero">
+            <p class="hero-desc">Showing 18 Result(s)</p>
+            <button class="hero-order-section">
+                <img src="./images/order.png" alt="order btn" width="24" height="24">
+                <p class="order-desc">Order by newest</p>
+            </button>
+        </div>
+
+        <div class="books">
+            <div class="books-left">
+                <h3 class="heading-bookmark-desc">Bookmarks</h3>
+                <p class="heading-bookmark-text">If you don’t like to read, you haven’t found the right book</p>
+                <ul class="bookmark-list"></ul>
+            </div>
+            <div class="books-right">
+                <ul class="book-list"></ul>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <div class="center-btns"></div>
+        </div>
+
+    </main>
+    <div class="info"></div>
+    <div class="overlay"></div>
+
+
+
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
